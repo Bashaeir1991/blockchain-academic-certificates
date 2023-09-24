@@ -3,6 +3,8 @@
 const FabricCAServices = require('fabric-ca-client');
 const { Wallets } = require('fabric-network');
 const path = require('path');
+const filePath = path.join('go', 'src', 'github.com', 'fabric', 'fabric-samples', 'blockchain-academic-certificates', 'web-app', 'services', 'fabric');
+console.log(filePath);
 const config = require('../../loaders/config');
 const fs = require('fs');
 const walletUtils = require('./wallet-utils');
